@@ -38,12 +38,9 @@ collections:
               - { label: "Ticket Link (URL)", name: "link", widget: "string" }
 
       - name: "homepage"
-    label: "Homepage Hero"
-    files:
-      - file: "content/hero.json"
-        label: "Hero Section"
-        name: "hero"
+        label: "Homepage Hero"
+        file: "content/hero.json"
         fields:
-          - {label: "Headline", name: "headline", widget: "string"}
-          - {label: "Hero Image", name: "image", widget: "image"}
-          - {label: "Description Text", name: "body", widget: "text"}
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Hero Image", name: "image", widget: "image" }
+          - { label: "Description Text", name: "body", widget: "text" }
