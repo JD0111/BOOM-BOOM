@@ -1,12 +1,6 @@
 {
   "gigs": [
     {
-      "price": "£10 Door",
-      "date": "20/01",
-      "band": "WOOHOO",
-      "desc": "DOOR"
-    },
-    {
       "price": "£5",
       "date": "23/01",
       "band": "The Beatles",
