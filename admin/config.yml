@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main # or master, depending on your GitHub branch
+
+media_folder: "assets/img" # where images go if you add them later
+public_folder: "/assets/img"
+
+# Use Netlify Identity for login
+publish_mode: editorial_workflow
+
+collections:
+  - name: "gigs"
+    label: "Gigs"
+    folder: "data/gigs" # This is where the CMS will save the gig files
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    fields:
+      - { label: "Band Name", name: "title", widget: "string" }
+      - { label: "Event Date", name: "date", widget: "datetime", format: "DD/MM/YYYY" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Ticket Link", name: "ticket_link", widget: "string", required: false }
+      - { label: "Price/Door Info", name: "price", widget: "string", default: "£10 Door" }
