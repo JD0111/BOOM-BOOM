@@ -5,6 +5,12 @@
       "date": "23/01",
       "band": "The Beatles",
       "desc": "- Classics Hits"
+    },
+    {
+      "price": "£100 Door",
+      "date": "24/01",
+      "band": "Test",
+      "desc": "Best hits"
     }
   ]
 }
