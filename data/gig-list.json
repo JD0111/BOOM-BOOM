@@ -1,10 +1,10 @@
 {
   "gigs": [
     {
-      "price": "£100 Door",
+      "price": "£100 DOOR",
       "date": "24/01",
-      "band": "Test",
-      "desc": "Best hits"
+      "band": "TEST",
+      "desc": "BEST HITS"
     }
   ]
 }
