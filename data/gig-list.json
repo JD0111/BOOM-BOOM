@@ -5,6 +5,12 @@
       "date": "24/01",
       "band": "TEST",
       "desc": "BEST HITS"
+    },
+    {
+      "price": "£50 DOOR",
+      "date": "26/01",
+      "band": "IMAGINE THE BEATLES",
+      "desc": "CLASSICS & OLDIES"
     }
   ]
 }
