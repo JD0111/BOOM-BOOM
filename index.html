@@ -327,8 +327,19 @@
     <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/react.DXZ2gJ9b.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/rolldown-runtime.C4p97ucE.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/framer.DmuDKZwJ.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/motion.DzUNbFi-.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/N6Lp6LdM1jnNtZpyhsPeVIWS-Ox0onyRQOzh5xHBUZI.CU2wr7OJ.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/shared-lib.BRE3ifyp.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/augiA20Il.DVSt2oEL.mjs"><link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/6zgPmmTMdupXQvWnQnfjGF/script_main.B6lByUgv.mjs"><div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true">
 </div>
     
-    
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>    
     
 </body>
 </html>
+
 
