@@ -303,33 +303,28 @@
     </div><div class="framer-1g8nk0c"><div class="framer-1rnrjxv"><div class="framer-4aymkc"><div class="ssr-variant hidden-mafn51"><div class="framer-1opbohf" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtNjAw;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:40px;--framer-font-weight:600;--framer-text-color:rgb(255, 255, 255)" class="framer-text">The</p></div></div><div class="ssr-variant hidden-1haagx7 hidden-16xv8a"><div class="framer-1opbohf" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtNjAw;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:600;--framer-text-color:rgb(255, 255, 255)" class="framer-text">The</p></div></div><div class="ssr-variant hidden-mafn51"><div class="framer-19k9p21" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtNjAw;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:90px;--framer-font-weight:600;--framer-text-color:rgb(252, 151, 121)" class="framer-text">BOOM BOOM <span style="--framer-text-color:rgb(255, 255, 255)" class="framer-text">CLUB</span></p></div></div><div class="ssr-variant hidden-1haagx7 hidden-16xv8a"><div class="framer-19k9p21" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtNjAw;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:45px;--framer-font-weight:600;--framer-text-color:rgb(252, 151, 121)" class="framer-text">BOOM BOOM <span style="--framer-text-color:rgb(255, 255, 255)" class="framer-text">CLUB</span></p></div></div><div class="ssr-variant hidden-mafn51"><div class="framer-14ouxmv" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtcmVndWxhcg==;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:40px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">Live Music Venue</p></div></div><div class="ssr-variant hidden-1haagx7 hidden-16xv8a"><div class="framer-14ouxmv" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtcmVndWxhcg==;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">Live Music Venue</p></div></div></div></div><div class="framer-1nix4sg"><div class="framer-1xwbvzz"><div class="framer-r7dw59" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMgU0MtcmVndWxhcg==;--framer-font-family:&quot;Alumni Sans SC&quot;, &quot;Alumni Sans SC Placeholder&quot;, sans-serif;--framer-font-size:40px;--text-alignment:left;--framer-text-color:rgb(252, 151, 121)" class="framer-text">BUY TICKETS</p></div>
   
   <div class="framer-5lxrgw" style="height: auto !important; min-height: 200px; width: 100%; display: block; overflow: visible;">
-      <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-          <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-              <td style="padding: 20px 0; text-align: left; vertical-align: middle;">
-                  <span style="font-family: Anaheim, sans-serif; font-size: 30px; color: rgb(251, 255, 0);">Specialised - 23/01/2026</span>
-              </td>
-              <td style="padding: 20px 0; text-align: right; vertical-align: middle; width: 150px;">
-                  <a href="LINK1" target="_blank" style="background-color: rgb(251, 255, 0); color: black; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; font-family: sans-serif; display: inline-block;">Buy Tickets</a>
-              </td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-              <td style="padding: 20px 0; text-align: left; vertical-align: middle;">
-                  <span style="font-family: Anaheim, sans-serif; font-size: 30px; color: rgb(251, 255, 0);">Next Band Name - 30/01/2026</span>
-              </td>
-              <td style="padding: 20px 0; text-align: right; vertical-align: middle; width: 150px;">
-                  <a href="LINK2" target="_blank" style="background-color: rgb(251, 255, 0); color: black; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; font-family: sans-serif; display: inline-block;">Buy Tickets</a>
-              </td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <table id="ticket-table" style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+        </table>
+</div>
+
+<script>
+  fetch('./data/tickets.json')
+    .then(response => response.json())
+    .then(data => {
+      const table = document.getElementById('ticket-table');
+      table.innerHTML = data.tickets.map(t => `
+        <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
             <td style="padding: 20px 0; text-align: left; vertical-align: middle;">
-                <span style="font-family: Anaheim, sans-serif; font-size: 30px; color: rgb(251, 255, 0);">Next Band Name - 30/01/2026</span>
+                <span style="font-family: Anaheim, sans-serif; font-size: 30px; color: rgb(251, 255, 0);">${t.band} - ${t.full_date}</span>
             </td>
             <td style="padding: 20px 0; text-align: right; vertical-align: middle; width: 150px;">
-                <a href="LINK2" target="_blank" style="background-color: rgb(251, 255, 0); color: black; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; font-family: sans-serif; display: inline-block;">Buy Tickets</a>
+                <a href="${t.link}" target="_blank" style="background-color: rgb(251, 255, 0); color: black; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; font-family: sans-serif; display: inline-block;">Buy Tickets</a>
             </td>
         </tr>
-      </table>
-  </div>
+      `).join('');
+    });
+</script>
 
   </div></div><div class="framer-1otpkcp"><div class="framer-iqwe3q" data-framer-component-type="RichTextContainer" style="transform:none"><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtcmVndWxhcg==;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)" class="framer-text">LIVE LOCAL MUSIC</p><p style="--font-selector:R0Y7QWx1bW5pIFNhbnMtcmVndWxhcg==;--framer-font-family:&quot;Alumni Sans&quot;, &quot;Alumni Sans Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)" class="framer-text">Sutton United Football Club, VBS Community Stadium, Gander Green Lane, Sutton SM1 2EY.</p></div></div><div id="overlay"></div></div>
 </body></html>
+
