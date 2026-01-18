@@ -14,6 +14,11 @@
       "band": "ABBA",
       "full_date": "03/03/2026",
       "link": "https://wegottickets.com/event/685507"
+    },
+    {
+      "band": "TEST",
+      "full_date": "23/02/2024",
+      "link": "mailto:ray@raymc.events"
     }
   ]
 }
