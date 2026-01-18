@@ -5,6 +5,12 @@
       "date": "26/01",
       "band": "IMAGINE THE BEATLES",
       "desc": "CLASSICS & OLDIES"
+    },
+    {
+      "price": "£10 Door",
+      "date": "30/02",
+      "band": "ROLLING STONES",
+      "desc": "STONES TRIBUTE"
     }
   ]
 }
