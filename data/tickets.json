@@ -1,24 +1,3 @@
 {
-  "tickets": [
-    {
-      "band": "WOOOO HOOO",
-      "full_date": "23/01/2026",
-      "link": "www.google.com"
-    },
-    {
-      "band": "Imagine The Beatles",
-      "full_date": "28/01/2026",
-      "link": "https://wegottickets.com/event/685507"
-    },
-    {
-      "band": "ABBA",
-      "full_date": "03/03/2026",
-      "link": "https://wegottickets.com/event/685507"
-    },
-    {
-      "band": "TEST",
-      "full_date": "23/02/2024",
-      "link": "mailto:ray@raymc.events"
-    }
-  ]
+  "tickets": []
 }
