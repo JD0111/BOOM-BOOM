@@ -1,3 +1,9 @@
 {
-  "tickets": []
+  "tickets": [
+    {
+      "band": "THE SPECIALISED",
+      "full_date": "23/01/2026",
+      "link": "https://wegottickets.com/event/685507"
+    }
+  ]
 }
