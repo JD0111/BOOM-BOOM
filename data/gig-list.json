@@ -1,3 +1,10 @@
 {
-  "gigs": []
+  "gigs": [
+    {
+      "price": "£15 adv  £17 Door",
+      "date": "23/01",
+      "band": "THE SPECIALISED",
+      "desc": "Specials/Ska"
+    }
+  ]
 }
