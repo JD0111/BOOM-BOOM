@@ -131,6 +131,24 @@
       "date": "03/07",
       "band": "JUST FLOYD",
       "desc": "Tribute"
+    },
+    {
+      "price": "£16 adv £18 door",
+      "date": "10/07",
+      "band": "LAURA AMY WINEHOUSE",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "17/07",
+      "band": "WRONG JOVI",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "24/07",
+      "band": "Counterfeit Quo",
+      "desc": "Tribute"
     }
   ]
 }
