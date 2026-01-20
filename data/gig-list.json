@@ -147,7 +147,25 @@
     {
       "price": "£15 adv £17 door",
       "date": "24/07",
-      "band": "Counterfeit Quo",
+      "band": "COUNTERFEIT QUO",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "31/07",
+      "band": "GLAMSTAR",
+      "desc": "70s glam"
+    },
+    {
+      "price": "£17.50 adv £20 door",
+      "date": "07/08",
+      "band": "ROLLING STONED",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "04/09",
+      "band": "BRINGING ON BACK THE 80s",
       "desc": "Tribute"
     }
   ]
