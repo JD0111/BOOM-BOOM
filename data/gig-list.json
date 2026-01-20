@@ -71,6 +71,24 @@
       "date": "24/04",
       "band": "JAMIE AND THE JETS",
       "desc": "Elton"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "01/05",
+      "band": "OASIZ",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "08/05",
+      "band": "SQUEEZED",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "15/05",
+      "band": "MAINLY MADNESS",
+      "desc": "Tribute"
     }
   ]
 }
