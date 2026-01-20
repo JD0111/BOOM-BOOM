@@ -47,6 +47,18 @@
       "date": "27/03",
       "band": "PARALLEL BLONDES",
       "desc": "Blondie"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "03/04",
+      "band": "GUNS 2 ROSES",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "10/014",
+      "band": "ELVIS RETURNS",
+      "desc": "Tribute"
     }
   ]
 }
