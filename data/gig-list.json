@@ -104,7 +104,7 @@
     },
     {
       "price": "£15 adv £17 door",
-      "date": "06/06",
+      "date": "05/06",
       "band": "IMAGINE ... THE BEATLES",
       "desc": "Tribute"
     },
@@ -118,6 +118,18 @@
       "price": "£17 adv £20 door",
       "date": "19/06",
       "band": "ROXY MAGIC",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£18 adv £20 door",
+      "date": "26/06",
+      "band": "THE KAST OFF KINKS",
+      "desc": "Original member"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "03/07",
+      "band": "JUST FLOYD",
       "desc": "Tribute"
     }
   ]
