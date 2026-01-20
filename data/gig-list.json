@@ -101,6 +101,24 @@
       "date": "29/05",
       "band": "ROD AND THE FACEZ",
       "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "06/06",
+      "band": "IMAGINE ... THE BEATLES",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "12/06",
+      "band": "THE ORBISON PROJECT",
+      "desc": "Tribute"
+    },
+    {
+      "price": "£17 adv £20 door",
+      "date": "19/06",
+      "band": "ROXY MAGIC",
+      "desc": "Tribute"
     }
   ]
 }
