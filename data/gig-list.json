@@ -169,6 +169,12 @@
       "desc": "Tribute"
     },
     {
+      "price": "£10 Door",
+      "date": "11/09",
+      "band": "THE DB5s",
+      "desc": "50s to 00s covers"
+    },
+    {
       "price": "£15 adv £17 door",
       "date": "25/09",
       "band": "THE HIJACKED HOLLIES",
@@ -179,12 +185,6 @@
       "date": "16/10",
       "band": "CLIFF & THE EVENING SHADOWS",
       "desc": "Tribute"
-    },
-    {
-      "price": "£10 Door",
-      "date": "11/09",
-      "band": "THE DB5s",
-      "desc": "50s to 00s covers"
     }
   ]
 }
