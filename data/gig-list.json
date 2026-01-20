@@ -59,6 +59,18 @@
       "date": "10/04",
       "band": "ELVIS RETURNS",
       "desc": "Tribute"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "17/04",
+      "band": "BOOTLEG BOSS",
+      "desc": "Springsteen"
+    },
+    {
+      "price": "£15 adv £17 door",
+      "date": "24/04",
+      "band": "JAMIE AND THE JETS",
+      "desc": "Elton"
     }
   ]
 }
