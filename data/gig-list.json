@@ -97,6 +97,12 @@
       "desc": "Tribute"
     },
     {
+      "price": "£15 adv £18 Door",
+      "date": "05/06",
+      "band": "RU 40",
+      "desc": "UB40 Tribute"
+    },
+    {
       "price": "£15 adv £17 door",
       "date": "12/06",
       "band": "THE ORBISON PROJECT",
@@ -185,12 +191,6 @@
       "date": "04/12",
       "band": "THE BOHEMIANS",
       "desc": "Queen"
-    },
-    {
-      "price": "£15 adv £18 Door",
-      "date": "05/06",
-      "band": "RU 40",
-      "desc": "UB40 Tribute"
     }
   ]
 }
