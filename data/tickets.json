@@ -76,6 +76,11 @@
       "link": "https://wegottickets.com/event/690104"
     },
     {
+      "band": "RU40 UB40 Tribute",
+      "full_date": "05/06/2026",
+      "link": "https://wegottickets.com/event/690920"
+    },
+    {
       "band": "THE ORBISON PROJECT",
       "full_date": "12/06/2026",
       "link": "https://wegottickets.com/event/690137"
@@ -134,11 +139,6 @@
       "band": "CLIFF & THE EVENING SHADOWS",
       "full_date": "16/10/2026",
       "link": "https://wegottickets.com/event/690156"
-    },
-    {
-      "band": "RU40 UB40 Tribute",
-      "full_date": "05/06/2026",
-      "link": "https://wegottickets.com/event/690920"
     }
   ]
 }
