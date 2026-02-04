@@ -141,6 +141,11 @@
       "link": "https://wegottickets.com/event/690155"
     },
     {
+      "band": "DIZZY LIZZY",
+      "full_date": "09/10/2026",
+      "link": "https://wegottickets.com/event/691959"
+    },
+    {
       "band": "CLIFF & THE EVENING SHADOWS",
       "full_date": "16/10/2026",
       "link": "https://wegottickets.com/event/690156"
@@ -154,11 +159,6 @@
       "band": "THE BOHEMIANS",
       "full_date": "04/12/2026",
       "link": "https://wegottickets.com/event/691217"
-    },
-    {
-      "band": "DIZZY LIZZY",
-      "full_date": "09/10/2026",
-      "link": "https://wegottickets.com/event/691959"
     }
   ]
 }
