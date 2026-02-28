@@ -136,6 +136,11 @@
       "link": "https://wegottickets.com/event/690155"
     },
     {
+      "band": "TOTAL WHO",
+      "full_date": "02/10/2026",
+      "link": "https://wegottickets.com/event/695018"
+    },
+    {
       "band": "DIZZY LIZZY",
       "full_date": "09/10/2026",
       "link": "https://wegottickets.com/event/691959"
@@ -154,11 +159,6 @@
       "band": "THE BOHEMIANS",
       "full_date": "04/12/2026",
       "link": "https://wegottickets.com/event/691217"
-    },
-    {
-      "band": "TOTAL WHO",
-      "full_date": "02/10/2026",
-      "link": "https://wegottickets.com/event/695018"
     }
   ]
 }
