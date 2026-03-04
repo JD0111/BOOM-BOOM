@@ -203,6 +203,12 @@
       "date": "04/12",
       "band": "THE BOHEMIANS",
       "desc": "Queen"
+    },
+    {
+      "price": "£20 adv £23 Door",
+      "date": "30/12",
+      "band": "FLEETWOOD BAC",
+      "desc": "Tribute"
     }
   ]
 }
