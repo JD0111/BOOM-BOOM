@@ -156,14 +156,14 @@
       "link": "https://wegottickets.com/event/691217"
     },
     {
-      "band": "FLEETWOOD BAC",
-      "full_date": "30/12/2026",
-      "link": "https://wegottickets.com/event/695360"
-    },
-    {
       "band": "IMAGINE ... THE BEATLES",
       "full_date": "18/12/2026",
       "link": "https://wegottickets.com/event/696198"
+    },
+    {
+      "band": "FLEETWOOD BAC",
+      "full_date": "30/12/2026",
+      "link": "https://wegottickets.com/event/695360"
     }
   ]
 }
