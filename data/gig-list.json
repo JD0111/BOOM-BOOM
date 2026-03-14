@@ -187,6 +187,12 @@
       "desc": "Tribute"
     },
     {
+      "price": "£15 adv £18 Door",
+      "date": "27/11",
+      "band": "WHAT A WASTE",
+      "desc": "Tribute"
+    },
+    {
       "price": "£20 adv £23 Door",
       "date": "04/12",
       "band": "THE BOHEMIANS",
@@ -202,12 +208,6 @@
       "price": "£20 adv £23 Door",
       "date": "30/12",
       "band": "FLEETWOOD BAC",
-      "desc": "Tribute"
-    },
-    {
-      "price": "£15 adv £18 Door",
-      "date": "27/11",
-      "band": "WHAT A WASTE",
       "desc": "Tribute"
     }
   ]
